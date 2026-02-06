@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="container">
       <h1>My CI/CD Test App</h1>
+      <p>merge from dev-matej</p>
 
       <input
         type="number"
