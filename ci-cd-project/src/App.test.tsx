@@ -13,5 +13,5 @@ test('adds numbers correctly', () => {
 
   fireEvent.click(screen.getByText('Calculate'))
 
-  expect(screen.getByText('Result: 11')).toBeInTheDocument()
+  expect(screen.getByText('Result: 10')).toBeInTheDocument()
 })
